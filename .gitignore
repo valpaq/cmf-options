@@ -1,0 +1,19 @@
+# Local data symlink / folder — points at user's dataset, never commit.
+/data
+
+# Built binaries
+/standard/ingest_fast
+/standard/ingest_opt
+/hard/ingest_hard
+/tests/test_main
+
+# Object files / build artefacts
+*.o
+*.obj
+*.dSYM/
+
+# Editor / OS
+.DS_Store
+*.swp
+.vscode/
+.idea/
